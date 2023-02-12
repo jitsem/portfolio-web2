@@ -7,6 +7,7 @@
 		html_url: string;
 		description: string;
 		pushed_at: string;
+		language: string;
 	};
 	let projects: project[] = [];
 
@@ -41,18 +42,35 @@
 				href={project.html_url}
 				target="_blank"
 				rel="noreferrer"
-				class="py-10 px-10 rounded shadow-lg my-3 border-blue-900 border max-w-lg mx-2"
-				><div>
-					<h2 class="text-blue-700 text-lg">{project.name} ({project.stargazers_count} stars)</h2>
-					<em>
-						{#if project.description === null}
-							No description
-						{:else}
-							{project.description}
-						{/if}
-					</em>
-				</div></a
+				class="py-2 px-5 rounded shadow-lg my-1 border-blue-900 border max-w-lg mx-2"
 			>
+				<div class="relative">
+					<div class="absolute top-0 right-0">
+						<h3 class="text-blue-700">{project.stargazers_count} stars</h3>
+					</div>
+					<h2 class="text-blue-700 text-lg">{project.name}</h2>
+					<div class="pb-10 pt-3">
+						<em>
+							{#if project.description === null}
+								No description
+							{:else}
+								{project.description}
+							{/if}
+						</em>
+					</div>
+					<div class="absolute bottom-0 right-0 text-gray-600 text-sm">
+						Last updated: {new Date(project.pushed_at).toLocaleDateString()}
+					</div>
+
+					<div class="absolute bottom-0 left-0 text-gray-600 text-sm">
+						{#if project.language === null}
+							???
+						{:else}
+							{project.language}
+						{/if}
+					</div>
+				</div>
+			</a>
 		{/each}
 	</div>
 {/if}

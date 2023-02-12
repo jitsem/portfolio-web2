@@ -34,16 +34,17 @@
 
 	<footer class="bg-blue-700 w-full">
 		<div class="text-blue-100 mx-auto flex flex-col md:flex-row justify-center items-center">
-			<a href="https://github.com/jitsem"
-				><img class="w-4 mx-3 my-1 fill-blue-100" src={github} alt="GitHub logo" /></a
-			>
-			<a href="https://www.linkedin.com/in/jitse-meulenijzer-872625175/"
-				><img class="w-4 mx-3 my-1 fill-blue-100" src={linkedIn} alt="LinkedIn logo" /></a
-			>
-			<a href="mailto:info@jitsem.be"
-				><img class="w-4 mx-3 my-1 fill-blue-100" src={mail} alt="mail" /></a
-			>
-
+			<div class="flex flex-row justify-center items-center">
+				<a href="https://github.com/jitsem"
+					><img class="w-4 mx-3 my-1 fill-blue-100" src={github} alt="GitHub logo" /></a
+				>
+				<a href="https://www.linkedin.com/in/jitse-meulenijzer-872625175/"
+					><img class="w-4 mx-3 my-1 fill-blue-100" src={linkedIn} alt="LinkedIn logo" /></a
+				>
+				<a href="mailto:info@jitsem.be"
+					><img class="w-4 mx-3 my-1 fill-blue-100" src={mail} alt="mail" /></a
+				>
+			</div>
 			<p class="p-15 mx-3 text-sm"><em>Built in SvelteKit with the help of ChatGPT</em></p>
 			<p class="p-15 mx-3 text-sm"><em>&copy; jitsem 2023</em></p>
 		</div>
