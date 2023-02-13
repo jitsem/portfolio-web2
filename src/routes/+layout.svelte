@@ -4,27 +4,33 @@
 	import github from '$lib/assets/github.svg';
 	import mail from '$lib/assets/mail.svg';
 	import linkedIn from '$lib/assets/linkedin.svg';
+	import ThemeSwitch from '$lib/ThemeSwitch/ThemeSwitch.svelte';
 </script>
 
-<div class="pt-4 text-gray-700 antialiased  flex flex-col h-screen justify-between">
+<div
+	class="pt-4 text-gray-700 antialiased  flex flex-col h-screen justify-between dark:text-blue-100"
+>
 	<div class="flex justify-between flex-wrap mx-16 md:px-10">
 		<img class="jm-logo" src={Logo} alt="jitsem logo" />
 		<div>
 			<ul class="flex">
 				<li
-					class="mx-3 text-xl md:text-3xl text-gray-700 no-underline lowercase hover:text-blue-700 transition duration-500"
+					class="mx-3 text-xl md:text-3xl no-underline lowercase text-gray-700 hover:text-blue-700 dark:text-blue-100 dark:hover:text-white transition duration-500"
 				>
 					<a href="/">Home</a>
 				</li>
 				<li
-					class="mx-3 text-xl md:text-3xl text-gray-700 no-underline lowercase hover:text-blue-700 transition duration-500"
+					class="mx-3 text-xl md:text-3xl no-underline lowercase text-gray-700 hover:text-blue-700 dark:text-blue-100 dark:hover:text-white transition duration-500"
 				>
 					<a href="/portfolio">Portfolio</a>
 				</li>
 				<li
-					class="mx-3 text-xl md:text-3xl text-gray-700 no-underline lowercase hover:text-blue-700 transition duration-500"
+					class="mx-3 text-xl md:text-3xl no-underline lowercase text-gray-700 hover:text-blue-700 dark:text-blue-100 dark:hover:text-white transition duration-500"
 				>
 					<a href="/projects">Projects</a>
+				</li>
+				<li>
+					<ThemeSwitch />
 				</li>
 			</ul>
 		</div>
@@ -32,7 +38,7 @@
 
 	<slot />
 
-	<footer class="bg-blue-700 w-full">
+	<footer class="bg-blue-700 dark:bg-blue-900 w-full">
 		<div class="text-blue-100 mx-auto flex flex-col md:flex-row justify-center items-center">
 			<div class="flex flex-row justify-center items-center">
 				<a href="https://github.com/jitsem"

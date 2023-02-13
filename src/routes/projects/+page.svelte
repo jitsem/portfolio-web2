@@ -31,7 +31,7 @@
 	}
 </script>
 
-<h1 class="text-blue-700 text-center py-2 mt-2 text-xl">My Projects</h1>
+<h1 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-xl">My Projects</h1>
 
 {#if projects.length === 0}
 	<p>Loading...</p>
@@ -42,13 +42,13 @@
 				href={project.html_url}
 				target="_blank"
 				rel="noreferrer"
-				class="py-2 px-5 rounded shadow-lg my-1 border-blue-900 border max-w-lg mx-2"
+				class="py-2 px-5 rounded shadow-lg my-1 border-blue-900 dark:border-blue-100 hover:border-blue-100 dark:hover:border-blue-900 border max-w-lg mx-2"
 			>
 				<div class="relative">
 					<div class="absolute top-0 right-0">
-						<h3 class="text-blue-700">{project.stargazers_count} stars</h3>
+						<h3 class="text-blue-700 dark:text-blue-600 ">{project.stargazers_count} stars</h3>
 					</div>
-					<h2 class="text-blue-700 text-lg">{project.name}</h2>
+					<h2 class="text-blue-700 dark:text-blue-600  text-lg">{project.name}</h2>
 					<div class="pb-10 pt-3">
 						<em>
 							{#if project.description === null}
@@ -58,11 +58,11 @@
 							{/if}
 						</em>
 					</div>
-					<div class="absolute bottom-0 right-0 text-gray-600 text-sm">
+					<div class="absolute bottom-0 right-0 text-gray-600 dark:text-gray-100 text-sm">
 						Last updated: {new Date(project.pushed_at).toLocaleDateString()}
 					</div>
 
-					<div class="absolute bottom-0 left-0 text-gray-600 text-sm">
+					<div class="absolute bottom-0 left-0 text-gray-600 dark:text-gray-100 text-sm">
 						{#if project.language === null}
 							???
 						{:else}
