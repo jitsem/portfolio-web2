@@ -15,7 +15,7 @@
 		<img class="min-w-0" src={programming1} alt="Man programming" />
 	</div>
 	<div class="flex flex-col justify-center items-center text-center">
-		<p class="mx-auto text-center">
+		<p class="mx-auto md:text-center text-left">
 			Welcome to my personal website, I'm <b class="text-blue-700 dark:text-blue-600 ">Jitse</b>, a
 			software developer with a passion for
 			<strong class="text-blue-700 dark:text-blue-600 ">technology</strong>. With a focus on
@@ -44,129 +44,125 @@
 		</h4>
 		<div class="flex flex-col md:flex-row justify-around items-center py-5 text-xs md:text-base">
 			<ul>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Strong background in the .NET ecosystem with mastery of C#, WPF, C++/CLI, and related
 						technologies</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
-						>Professional experience with Linux, including proficiency in administrating
-						Debian-based systems, shell scripting, and other system tools</span
+					<span class="text-center align-middle ml-2"
+						>Professional Linux experience, including proficiency in administrating Debian-based
+						systems, shell scripting, and other system tools</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Well-versed in a variety of other programming languages: Rust, Java, Qt, C, Python,
 						C++, ...</span
 					>
 				</li>
 
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
-						>Familiarity with embedded systems and related development tools</span
+					<span class="text-center align-middle ml-2"
+						>Familiarity with embedded systems serial communication protocols and related
+						development tools</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Proficiency in network communication protocols and technologies, including TCP/UDP,
 						HTTP, MQTT, and more</span
 					>
 				</li>
-				<li>
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Skilled in front-end Web Development: HTML, CSS, JavaScript, Vue, Svelte, and other
 						modern web technologies</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Solid understanding of website deployment: webserver configuration, DNS management, ...</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Experience with containerization and virtualization technologies such as Docker,
 						proxmox, qemu/kvm</span
 					>
 				</li>
-
-				<li class="list-none">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle">Check out my full portfolio for details</span>
-				</li>
 			</ul>
-			<img class="w-1/3" src={coding1} alt="Man coding" />
+			<img class="w-1/3 md:mt-0 mt-5" src={coding1} alt="Man coding" />
 		</div>
 	</div>
 	<hr class="border-2 border-double border-blue-900  dark:border-blue-700" />
 	<div class="mb-5">
 		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">My Soft Skills</h4>
 		<div class="flex flex-col md:flex-row justify-around items-center py-5 text-xs md:text-base">
-			<img class="w-1/3 transform -scale-x-100" src={coding1} alt="Man coding" />
+			<img class="w-1/3 transform -scale-x-100 md:mb-0 mb-5" src={coding1} alt="Man coding" />
 
 			<ul>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Excellent communication skills, with the ability to articulate technical concepts to
 						both technical and non-technical stakeholders</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Strong time management skills, with the ability to prioritize tasks, meet deadlines,
 						and work effectively under pressure</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Attention to detail, ensuring accuracy and thoroughness in all aspects of software
 						development</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Collaborative and team-oriented, with the ability to work effectively with
 						cross-functional teams</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Proactive and self-motivated, with a strong work ethic and a desire to continuously
 						improve and learn</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Ability to lead projects, delegate tasks, and motivate team members to achieve common
 						goals</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Excellent problem-solving skills, with the ability to analyze complex technical
 						problems and develop creative solutions</span
 					>
 				</li>
-				<li class="list-none">
+				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle"
+					<span class="text-center align-middle ml-2"
 						>Strong interpersonal skills, with the ability to build relationships with clients, team
 						members, and stakeholders</span
 					>
@@ -179,7 +175,7 @@
 	<div>
 		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">Contact me</h4>
 		<div class="flex flex-col justify-around items-center">
-			<p class="text-center py-5">
+			<p class="md:text-center text-left py-5">
 				<b class="text-blue-700 dark:text-blue-600 ">Thank you</b> for taking the time to visit my website
 				and and taking the time to learn more about my background and interests in the field of software
 				development. If you have any questions or would like to discuss potential collaboration opportunities,

@@ -10,10 +10,10 @@
 <div
 	class="pt-4 text-gray-700 antialiased  flex flex-col h-screen justify-between dark:text-blue-100"
 >
-	<div class="flex justify-between flex-wrap mx-16 md:px-10">
+	<div class="flex justify-between flex-wrap md:mx-16 mx-8 md:px-10">
 		<img class="jm-logo" src={Logo} alt="jitsem logo" />
 		<div>
-			<ul class="flex">
+			<ul class="flex justify-between">
 				<li
 					class="mx-3 text-xl md:text-3xl no-underline lowercase text-gray-700 hover:text-blue-700 dark:text-blue-100 dark:hover:text-white transition duration-500"
 				>
