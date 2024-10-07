@@ -51,8 +51,8 @@
 					><img class="w-4 mx-3 my-1 fill-blue-100" src={mail} alt="mail" /></a
 				>
 			</div>
-			<p class="p-15 mx-3 text-sm"><em>Built in SvelteKit with the help of ChatGPT</em></p>
-			<p class="p-15 mx-3 text-sm"><em>&copy; jitsem 2023</em></p>
+			<p class="p-15 mx-3 text-sm"><em>Built in SvelteKit</em></p>
+			<p class="p-15 mx-3 text-sm"><em>&copy; jitsem 2024</em></p>
 		</div>
 	</footer>
 </div>

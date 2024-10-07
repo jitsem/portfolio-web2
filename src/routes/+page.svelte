@@ -16,23 +16,8 @@
 	</div>
 	<div class="flex flex-col justify-center items-center text-center">
 		<p class="mx-auto md:text-center text-left">
-			Welcome to my personal website, I'm <b class="text-blue-700 dark:text-blue-600 ">Jitse</b>, a
-			software developer with a passion for
-			<strong class="text-blue-700 dark:text-blue-600 ">technology</strong>. With a focus on
-			continual
-			<strong class="text-blue-700 dark:text-blue-600 ">learning and improvement</strong>, I strive
-			to stay ahead of the latest developments in the field. This site is an opportunity for me to
-			showcase my skills and abilities, as well as a platform for sharing my projects and ideas. As
-			a
-			<strong class="text-blue-700 dark:text-blue-600 ">software developer</strong>, I have a strong
-			foundation in programming languages, software design, and problem solving. I am always seeking
-			new challenges and opportunities to expand my skill set and push the boundaries of what is
-			possible. Whether you are a recruiter or just curious about my work, I invite you to take a
-			look around and get to know me better. If you would like to collaborate on a project or have
-			any other inquiries, my contact information is available in the footer of this page. I look
-			forward to
-			<strong class="text-blue-700 dark:text-blue-600 ">connecting with you</strong> and exploring the
-			possibilities of what we can achieve together.
+			Welcome to my personal website. I'm <b class="text-blue-700 dark:text-blue-600 ">Jitse</b>,	professional software engineer, hacker, tweaker and general tech enthousiast. I have more than 8 years experience in developing <b class="text-blue-700 dark:text-blue-600 ">medical software</b>. I have a strong interest in all aspects of software development, from systems programming and low level OS stuff to frontend development and application deployment. In my spare time I'm often working on my own side projects or tweaking my personal homelab setup. I also brew my own beer :).
+		    This website contains a small overview of my techical and soft skills as well as a showcase of the various projects I made. Feel free to take a look around, and please do contact me if you see anything you like!
 		</p>
 
 		<img class="w-1/3 mt-4" src={hacking1} alt="Man hacking" />
@@ -46,58 +31,49 @@
 			<ul>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Strong background in the .NET ecosystem with mastery of C#, WPF, C++/CLI, and related
-						technologies</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Professional Linux experience, including proficiency in administrating Debian-based
-						systems, shell scripting, and other system tools</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Well-versed in a variety of other programming languages: Rust, Java, Qt, C, Python,
-						C++, ...</span
+					<span class="text-center align-middle ml-2">8+ years of experience within the .NET ecosystem; Mastery of C#, WPF, ASP.NET, EntityFramework, C++\CLI, ...</span
 					>
 				</li>
 
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Familiarity with embedded systems serial communication protocols and related
-						development tools</span
+					<span class="text-center align-middle ml-2">Skilled in hardcore .NET debugging, performace analysis, and memory optimization</span
+					>
+				</li>
+				<li class="list-none flex md:my-0 my-4">
+					<img class="inline" src={checkmark} alt="checkmark" />
+					<span class="text-center align-middle ml-2">Strong interest in everything related to DevOps: Git, CI/CD pipelines, network configuration, ...</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Proficiency in network communication protocols and technologies, including TCP/UDP,
-						HTTP, MQTT, and more</span
+						>Expert operating system knowledge of both Linux and Windows systems</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Skilled in front-end Web Development: HTML, CSS, JavaScript, Vue, Svelte, and other
+						>Fluent in a variety of other programming languages: Rust, Python, F#, Java, ...</span
+					>
+				</li>
+				<li class="list-none flex md:my-0 my-4">
+					<img class="inline" src={checkmark} alt="checkmark" />
+					<span class="text-center align-middle ml-2"
+						>Proficient in countless communication protocols and technologies including: TCP/IP, HTTP, Serial, gRPC, MQTT, and many more</span
+					>
+				</li>
+				<li class="list-none flex md:my-0 my-4">
+					<img class="inline" src={checkmark} alt="checkmark" />
+					<span class="text-center align-middle ml-2"
+						>Strong foundational knowledge of front-end web development: HTML, CSS, JavaScript, Svelte, HTMX, and other
 						modern web technologies</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Solid understanding of website deployment: webserver configuration, DNS management, ...</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Experience with containerization and virtualization technologies such as Docker,
-						proxmox, qemu/kvm</span
+						>Experience with containerization and virtualization technologies such as Docker, LXC and many others</span
 					>
 				</li>
 			</ul>
@@ -114,57 +90,32 @@
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Excellent communication skills, with the ability to articulate technical concepts to
-						both technical and non-technical stakeholders</span
+						>Excellent communication skills, with the ability to explain highly technical concepts to non-technical people</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Strong time management skills, with the ability to prioritize tasks, meet deadlines,
-						and work effectively under pressure</span
+						>Attention to detail, ensuring accuracy and thoroughness in all aspects of the development cycle</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Attention to detail, ensuring accuracy and thoroughness in all aspects of software
-						development</span
+						>Superb problem-solving skills, analyzing complex technical
+						problems and developing creative solutions</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Collaborative and team-oriented, with the ability to work effectively with
-						cross-functional teams</span
+						>A curious mind, with a constant drive to learn more and more</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Proactive and self-motivated, with a strong work ethic and a desire to continuously
-						improve and learn</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Ability to lead projects, delegate tasks, and motivate team members to achieve common
-						goals</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Excellent problem-solving skills, with the ability to analyze complex technical
-						problems and develop creative solutions</span
-					>
-				</li>
-				<li class="list-none flex md:my-0 my-4">
-					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2"
-						>Strong interpersonal skills, with the ability to build relationships with clients, team
-						members, and stakeholders</span
+						>Experience as a technical project lead. Taking desicions that benefit both the short-term and long-term project succes</span
 					>
 				</li>
 			</ul>
@@ -176,12 +127,9 @@
 		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">Contact me</h4>
 		<div class="flex flex-col justify-around items-center">
 			<p class="md:text-center text-left py-5">
-				<b class="text-blue-700 dark:text-blue-600 ">Thank you</b> for taking the time to visit my website
-				and and taking the time to learn more about my background and interests in the field of software
-				development. If you have any questions or would like to discuss potential collaboration opportunities,
-				please feel free to reach out using the contact information provided at the bottom of this page.
-				Also, don't forget to check out my other projects linked at the top. Enjoy the rest of your day!
-				:)
+				<b class="text-blue-700 dark:text-blue-600 ">Thank you</b> for taking the time to visit my website.
+				If you would like to know anything else about me, like my least-liked programming language or my favorite trappist,	feel free to reach out using the details below.
+				Also, don't forget to check out my projects linked at the top. Enjoy the rest of your day! :)
 			</p>
 			<img class="w-1/3 my-2" src={portait} alt="karikatuur portret" />
 		</div>
