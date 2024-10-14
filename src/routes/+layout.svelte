@@ -8,7 +8,7 @@
 </script>
 
 <div
-	class="pt-4 text-gray-700 antialiased  flex flex-col h-screen justify-between dark:text-blue-100"
+	class="pt-4 text-gray-700 antialiased flex flex-col h-screen justify-between dark:text-blue-100 leading-relaxed"
 >
 	<div class="flex justify-between flex-wrap md:mx-16 mx-8 md:px-10">
 		<img class="jm-logo" src={Logo} alt="jitsem logo" />
@@ -35,8 +35,7 @@
 			</ul>
 		</div>
 	</div>
-
-	<slot />
+	<slot/>
 
 	<footer class="bg-blue-700 dark:bg-blue-900 w-full">
 		<div class="text-blue-100 mx-auto flex flex-col md:flex-row justify-center items-center">
@@ -51,8 +50,8 @@
 					><img class="w-4 mx-3 my-1 fill-blue-100" src={mail} alt="mail" /></a
 				>
 			</div>
-			<p class="p-15 mx-3 text-sm"><em>Built in SvelteKit</em></p>
-			<p class="p-15 mx-3 text-sm"><em>&copy; jitsem 2024</em></p>
+			<p class="p-15 mx-3"><em>Built with SvelteKit</em></p>
+			<p class="p-15 mx-3"><em>&copy; jitsem 2024</em></p>
 		</div>
 	</footer>
 </div>

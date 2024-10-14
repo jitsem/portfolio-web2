@@ -10,12 +10,12 @@
 	<div class="flex flex-col md:flex-row justify-around items-center my-12">
 		<div class="md:px-10 py-4 md:py-0 flex-shrink-0">
 			<h1 class="text-4xl">Software Engineer</h1>
-			<h2 class="text-2xl text-blue-700 dark:text-blue-600  text-center">Welcome to my website</h2>
+			<h2 class="text-3xl text-blue-700 dark:text-blue-600  text-center">Welcome to my website</h2>
 		</div>
 		<img class="min-w-0" src={programming1} alt="Man programming" />
 	</div>
 	<div class="flex flex-col justify-center items-center text-center">
-		<p class="mx-auto md:text-center text-left">
+		<p class="text-lg mx-auto md:text-center text-left w-[100ch] p-15">
 			Welcome to my personal website. I'm <b class="text-blue-700 dark:text-blue-600 ">Jitse</b>,	professional software engineer, hacker, tweaker and general tech enthousiast. I have more than 8 years experience in developing <b class="text-blue-700 dark:text-blue-600 ">medical software</b>. I have a strong interest in all aspects of software development, from systems programming and low level OS stuff to frontend development and application deployment. In my spare time I'm often working on my own side projects or tweaking my personal homelab setup. I also brew my own beer :).
 		    This website contains a small overview of my techical and soft skills as well as a showcase of the various projects I made. Feel free to take a look around, and please do contact me if you see anything you like!
 		</p>
@@ -24,10 +24,10 @@
 	</div>
 	<hr class="border-2 border-double border-blue-900 dark:border-blue-700" />
 	<div class="mb-5">
-		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">
+		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-2xl">
 			My Technical Skills
 		</h4>
-		<div class="flex flex-col md:flex-row justify-around items-center py-5 text-xs md:text-base">
+		<div class="flex flex-col md:flex-row justify-around items-center py-5 text-md md:text-base">
 			<ul>
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
@@ -37,7 +37,7 @@
 
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
-					<span class="text-center align-middle ml-2">Skilled in hardcore .NET debugging, performace analysis, and memory optimization</span
+					<span class="text-center align-middle ml-2">Skilled in hardcore .NET debugging, performance analysis, and memory optimization</span
 					>
 				</li>
 				<li class="list-none flex md:my-0 my-4">
@@ -82,7 +82,7 @@
 	</div>
 	<hr class="border-2 border-double border-blue-900  dark:border-blue-700" />
 	<div class="mb-5">
-		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">My Soft Skills</h4>
+		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-2xl">My Soft Skills</h4>
 		<div class="flex flex-col md:flex-row justify-around items-center py-5 text-xs md:text-base">
 			<img class="w-1/3 transform -scale-x-100 md:mb-0 mb-5" src={coding1} alt="Man coding" />
 
@@ -115,7 +115,7 @@
 				<li class="list-none flex md:my-0 my-4">
 					<img class="inline" src={checkmark} alt="checkmark" />
 					<span class="text-center align-middle ml-2"
-						>Experience as a technical project lead. Taking desicions that benefit both the short-term and long-term project succes</span
+						>Experience as a technical project lead, taking desicions that benefit both the short-term and long-term project succes</span
 					>
 				</li>
 			</ul>
@@ -124,9 +124,9 @@
 	<hr class="border-2 border-double border-blue-900  dark:border-blue-700" />
 
 	<div>
-		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-lg">Contact me</h4>
+		<h4 class="text-blue-700 dark:text-blue-600  text-center py-2 mt-2 text-2xl">Contact Me</h4>
 		<div class="flex flex-col justify-around items-center">
-			<p class="md:text-center text-left py-5">
+			<p class="text-lg md:text-center text-left py-15 w-[100ch]">
 				<b class="text-blue-700 dark:text-blue-600 ">Thank you</b> for taking the time to visit my website.
 				If you would like to know anything else about me, like my least-liked programming language or my favorite trappist,	feel free to reach out using the details below.
 				Also, don't forget to check out my projects linked at the top. Enjoy the rest of your day! :)
